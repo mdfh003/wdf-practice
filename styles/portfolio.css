@@ -57,6 +57,10 @@ nav a {
 }
 
 /* header styles added */
+header{
+    margin-bottom: 130px;
+}
+
 .header{
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
@@ -111,6 +115,12 @@ nav a {
 }
 
 /* main section styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
 .section-title{
     color: #181818;
     text-align: center;
@@ -130,8 +140,32 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     /* width: 1140px;
-    height: 550px;
-    flex-shrink: 0; */
+    height: 550px; */
     padding: 130px;
-    margin: 130px 0;
+    /* margin: 130px auto; */
+}
+
+.about-info-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-decription{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+
 }
