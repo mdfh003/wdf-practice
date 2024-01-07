@@ -57,11 +57,11 @@ nav a {
 }
 
 /* header styles added */
-header{
+header {
     margin-bottom: 130px;
 }
 
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -70,24 +70,25 @@ header{
     /* background-position-y: bottom; */
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.banner-content{
+.banner-content {
     max-width: 585px;
 }
 
-.banner-greeting{
+.banner-greeting {
     color: #474747;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     color: #181818;
     font-size: 85px;
     font-weight: 700;
@@ -95,13 +96,12 @@ header{
     margin-bottom: 20px;
 }
 
-.banner-description{
+.banner-description {
     color: #757575;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 30px;
-
 }
 
 /* .pro-pic{
@@ -110,33 +110,38 @@ header{
     flex-shrink: 0;
 } */
 
-.banner .pro-pic{
+.banner .pro-pic {
     width: 500px;
 }
 
 /* main section styles*/
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
 
-.section-title{
+
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
 
-.section-description{
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
+
 /* about section styles */
-.about{
+.about {
     border-radius: 10px;
     background: #FFF8F3;
     /* width: 1140px;
@@ -145,24 +150,24 @@ main{
     /* margin: 130px auto; */
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     gap: 50px;
     justify-content: space-around;
 }
 
-.about-info{
+.about-info {
     text-align: center;
 }
 
-.info-title{
+.info-title {
     color: #757575;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
 }
 
-.info-decription{
+.info-decription {
     color: #474747;
     font-size: 20px;
     font-weight: 700;
@@ -170,6 +175,32 @@ main{
 
 }
 
-#what-i-do-description{
+#what-i-do-description {
     padding: 30px 150px;
+}
+
+/* skill related styles */
+.sill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
